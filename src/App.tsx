@@ -1,7 +1,7 @@
-import type { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 import "./App.css";
 
 export default function App(): ReactNode {
-  return <div>Kanban</div>;
+  return <div className="salutation">Hello, World!</div>;
 }
